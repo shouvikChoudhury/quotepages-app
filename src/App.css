@@ -1,0 +1,50 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 1px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #2b2eff;
+    color: #2b2eff;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover {
+    color: white !important;
+    background-color: #2b2eff;
+    text-decoration: none;
+}
+
+.paginationDisabled a,
+.paginationDisabled a:hover {
+    color: black !important;
+    background-color: gray;
+    cursor: default;
+}
+
+.paginationActive a {
+    color: white !important;
+    background-color: #2b2eff;
+}
